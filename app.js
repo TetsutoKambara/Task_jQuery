@@ -47,8 +47,8 @@ $(function () {
         $('.money .detail').html(fortuneResults['money'][rand]['detail']);
         // 仕事運
         rand  = Math.floor( Math.random() * 3 );  //乱数生成
-        $('.work .stars').html(fortuneResults['money'][rand]['stars']);
-        $('.work .detail').html(fortuneResults['money'][rand]['detail']);
+        $('.work .stars').html(fortuneResults['work'][rand]['stars']);
+        $('.work .detail').html(fortuneResults['work'][rand]['detail']);
         // 健康運
         rand  = Math.floor( Math.random() * 3 );  //乱数生成
         $('.health .stars').html(fortuneResults['health'][rand]['stars']);
